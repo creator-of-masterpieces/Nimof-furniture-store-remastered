@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "name": "Пример товара",
+    "price": 10000,
+    "image": "./images/furniture/sample.jpg"
+  }
+]

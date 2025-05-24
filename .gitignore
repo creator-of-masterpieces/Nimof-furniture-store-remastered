@@ -1,25 +1,4 @@
-# ===== Node.js =====
+.idea/
 node_modules/
 dist/
-.vite/
 .env
-.env.local
-*.log
-
-# ===== Vite preview output =====
-*.localhost/
-
-# ===== JetBrains IDEs =====
-Nimof-furniture-store-remastered/.idea/
-# Но оставим полезные конфиги:
-!Nimof-furniture-store-remastered/.idea/codeStyles/
-!Nimof-furniture-store-remastered/.idea/runConfigurations/
-
-# Игнорируем личные настройки пользователя:
-Nimof-furniture-store-remastered/.idea/**/workspace.xml
-Nimof-furniture-store-remastered/.idea/**/tasks.xml
-Nimof-furniture-store-remastered/.idea/**/shelf/
-Nimof-furniture-store-remastered/.idea/**/dataSources/
-Nimof-furniture-store-remastered/.idea/**/usage.statistics.xml
-Nimof-furniture-store-remastered/.idea/**/dictionaries/
-
