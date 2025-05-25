@@ -1,0 +1,52 @@
+
+:root {
+  /* Цветовая палитра */
+  --color-primary: #000;
+  --color-secondary: #fff;
+  --color-accent: #d4a373;
+  --color-bg-primary: #fff;
+  --color-bg-secondary: #1a1a1a;
+  --color-muted: #999999;
+  --color-error: #e63946;
+
+  /* Типографика */
+  --font-family-base: 'Montserrat', Arial, Helvetica;
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 20px;
+  --font-size-xl: 32px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-base: 1.5;
+
+  /* Отступы */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+  --space-xxxl: 64px;
+
+  /* Контейнеры и сетки */
+  --container-max-width: 1280px;
+  --container-padding: var(--space-lg);
+  --grid-gap: var(--space-md);
+
+  /* Границы и скругления */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-width: 1px;
+  --border-color: #e0e0e0;
+
+  /* Тени */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /*Анимация*/
+  --transition-color: color 0.3s ease;
+}
+

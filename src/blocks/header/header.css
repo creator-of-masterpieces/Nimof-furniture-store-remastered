@@ -1,4 +1,129 @@
+/* Блок header */
 .header {
+  background-color: var(--color-bg-primary);
+}
+
+/* Верх шапки с контактами */
+.header__top {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-secondary);
+}
+
+.header__contacts-list {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem 1rem;
+  gap: 1.5rem;
+  list-style: none;
+
+}
+
+.header__contacts-link {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-medium);
+  transition: var(--transition-color);
+}
+
+.header__contacts-link:hover,
+.header__contacts-link:focus-visible {
+  color: var(--color-accent);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Основной блок шапки */
+.header__main {
   padding: 1rem;
-  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__logo {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  transition: var(--transition-color);
+}
+
+.header__logo:hover,
+.header__logo:focus-visible {
+  color: var(--color-accent);
+}
+
+.page .header__logo:hover,
+.page .header__logo:focus-visible {
+  color: var(--color-primary);
+}
+
+.page .header__logo {
+  pointer-events: none;
+}
+
+.header__navigation-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navigation-link {
+  position: relative;
+  color: #000;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  transition: var(--transition-color);
+}
+
+.header__navigation-link:hover,
+.header__navigation-link:focus-visible {
+  color: var(--color-accent);
+}
+
+.header__navigation-link::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent);
+  scale: 0 1;
+  transform-origin: right;
+  transition:
+    scale .3s ease,
+    transform-origin 0s .3s;
+}
+
+.header__navigation-link:hover::before,
+.header__navigation-link:focus-visible::before {
+  scale: 1 1;
+  transform-origin: left;
+  transition:
+    scale 0.3s ease,
+    transform-origin 0s;
+}
+
+.header__navigation-link_current {
+  color: var(--color-accent);
+  pointer-events: none;
+}
+
+.header__navigation-link_current::before {
+  scale: 1 1;
+  transform-origin: left;
 }

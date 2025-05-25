@@ -1,2 +1,12 @@
 /* Импорт блоков */
+@import "../blocks/container/container.css";
 @import "../blocks/header/header.css";
+
+/* Установка базового шрифта и высоты строки */
+.page {
+    font-family: var(--font-family-base), sans-serif;
+    font-size: var(--font-size-m);
+    line-height: var(--line-height-base);
+    background-color: var(--color-bg-primary);
+    color: var(--color-primary);
+}
