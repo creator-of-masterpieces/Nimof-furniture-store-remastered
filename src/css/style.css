@@ -4,6 +4,10 @@
 @import "../blocks/header/header.css";
 @import "../blocks/main/main.css";
 @import "../blocks/hero/hero.css";
+@import "../blocks/work-preview/work-preview.css";
+@import "../blocks/section-title/section-title.css";
+@import "../blocks/category-list/category-list.css";
+@import "../blocks/card/card.css";
 
 /* Установка базового шрифта и высоты строки */
 .main-page {
