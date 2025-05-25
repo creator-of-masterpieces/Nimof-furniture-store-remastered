@@ -1,6 +1,9 @@
 /* Импорт блоков */
 @import "../blocks/container/container.css";
+@import "../blocks/visually-hidden/visually-hidden.css";
 @import "../blocks/header/header.css";
+@import "../blocks/main/main.css";
+@import "../blocks/hero/hero.css";
 
 /* Установка базового шрифта и высоты строки */
 .main-page {

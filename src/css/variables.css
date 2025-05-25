@@ -8,6 +8,10 @@
   --color-bg-secondary: #1a1a1a;
   --color-muted: #999999;
   --color-error: #e63946;
+  --color-button-primary: #d4a373;
+  --color-button-secondary: #fff;
+  --color-button-primary-hover: #c08a5a;
+  --color-button-secondary-hover: #fff;
 
   /* Типографика */
   --font-family-base: 'Montserrat', Arial, Helvetica;
