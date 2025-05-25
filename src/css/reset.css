@@ -1,0 +1,57 @@
+/* Сброс отступов и полей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Убираем подчеркивания у ссылок по умолчанию */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Наследуем шрифт для форм */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
+
+/* Удаляем маркеры у списков */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Убираем стандартные стили у кнопок */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Убираем обводку у изображений */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Сброс для заголовков и параграфов */
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+}
+
+/* Установка базового шрифта и высоты строки */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}

@@ -1,5 +1,2 @@
-/* Основные стили */
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
+/* Импорт блоков */
+@import "../blocks/header/header.css";
