@@ -1,6 +1,12 @@
 /* Блок header */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
   background-color: var(--color-bg-primary);
+  box-shadow: var(--shadow-md);
 }
 
 /* Верх шапки с контактами */

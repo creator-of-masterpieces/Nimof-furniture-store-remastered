@@ -9,4 +9,6 @@
     line-height: var(--line-height-base);
     background-color: var(--color-bg-primary);
     color: var(--color-primary);
+    /*Временно*/
+    height: 150vh;
 }
