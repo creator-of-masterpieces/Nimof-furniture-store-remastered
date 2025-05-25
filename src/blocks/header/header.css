@@ -35,7 +35,7 @@
   color: var(--color-accent);
 }
 
-.icon {
+.header__contacts {
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -69,12 +69,12 @@
   color: var(--color-accent);
 }
 
-.page .header__logo:hover,
-.page .header__logo:focus-visible {
+.header__logo_main-page:hover,
+.header__logo_main-page:focus-visible {
   color: var(--color-primary);
 }
 
-.page .header__logo {
+.header__logo_main-page {
   pointer-events: none;
 }
 

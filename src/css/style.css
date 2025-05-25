@@ -3,7 +3,7 @@
 @import "../blocks/header/header.css";
 
 /* Установка базового шрифта и высоты строки */
-.page {
+.main-page {
     font-family: var(--font-family-base), sans-serif;
     font-size: var(--font-size-m);
     line-height: var(--line-height-base);
