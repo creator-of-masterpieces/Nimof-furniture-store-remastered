@@ -1,11 +1,13 @@
-// Общий JS для сайта
+// src/js/main.js
+import { createIcons, icons } from 'lucide';
 
-// Инициализировал svg иконки
 document.addEventListener('DOMContentLoaded', () => {
-    lucide.replace({
-        stroke: 'currentColor',
-        fill: 'currentColor',
-        width: 24,
-        height: 24
+    createIcons({
+        icons, // подключает все иконки
+        attrs: {
+            stroke: 'currentColor',
+            width: 32,
+            height: 32
+        }
     });
 });

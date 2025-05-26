@@ -17,14 +17,14 @@ padding-block-start: var(--section-padding-top);
     align-items: center;
     row-gap: var(--grid-gap);
     block-size: 100%;
-    padding: 30px;
+    padding: 50px 30px;
     border-radius: var(--border-radius-md);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05),0 -5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .benefits__card-icon {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     color: #4a90e2;
 }
 
@@ -35,4 +35,6 @@ padding-block-start: var(--section-padding-top);
 
 .benefits__card-description {
     text-align: center;
+    font-size: 14px;
+    color: #666;
 }
