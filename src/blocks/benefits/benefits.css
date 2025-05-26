@@ -1,0 +1,38 @@
+.benefits {
+padding-block-start: var(--section-padding-top);
+    /*Временно*/
+    margin-bottom: 100px;
+}
+
+.benefits__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--grid-gap);
+    width: 100%;
+}
+
+.benefits__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: var(--grid-gap);
+    block-size: 100%;
+    padding: 30px;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.benefits__card-icon {
+    width: 30px;
+    height: 30px;
+    color: #4a90e2;
+}
+
+.benefits__card-title {
+    font-size: 20px;
+    font-weight: var(--font-weight-bold);
+}
+
+.benefits__card-description {
+    text-align: center;
+}

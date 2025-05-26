@@ -1,7 +1,7 @@
 
 :root {
   /* Цветовая палитра */
-  --color-primary: #000;
+  --color-primary: #1a1a1a;
   --color-secondary: #fff;
   --color-accent: #d4a373;
   --color-bg-primary: #fff;
@@ -26,19 +26,11 @@
   --line-height-base: 1.5;
 
   /* Отступы */
-  --space-xxs: 4px;
-  --space-xs: 8px;
-  --space-sm: 12px;
-  --space-md: 16px;
-  --space-lg: 24px;
-  --space-xl: 32px;
-  --space-xxl: 48px;
-  --space-xxxl: 64px;
+  --section-padding-top: 80px;
 
   /* Контейнеры и сетки */
   --container-max-width: 1280px;
-  --container-padding: var(--space-lg);
-  --grid-gap: var(--space-md);
+  --grid-gap: 20px;
 
   /* Границы и скругления */
   --border-radius-sm: 4px;
@@ -48,8 +40,8 @@
   --border-color: #e0e0e0;
 
   /* Тени */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0 6px 18px rgba(0, 0, 0, 0.08);
 
   /*Анимация*/
   --transition-color: color 0.3s ease;
