@@ -1,7 +1,5 @@
 .benefits {
 padding-block-start: var(--section-padding-top);
-    /*Временно*/
-    margin-bottom: 100px;
 }
 
 .benefits__list {
