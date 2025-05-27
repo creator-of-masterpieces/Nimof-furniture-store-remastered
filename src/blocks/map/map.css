@@ -1,0 +1,16 @@
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: var(--grid-gap);
+    padding-block-start: 80px;
+    /*Временно*/
+    margin-bottom: 150px;
+}
+
+.map__frame {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+
+}
