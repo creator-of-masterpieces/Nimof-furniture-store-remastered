@@ -1,5 +1,5 @@
 .benefits {
-padding-block-start: var(--section-padding-top);
+padding-block: var(--section-padding-top);
 }
 
 .benefits__list {
@@ -16,8 +16,9 @@ padding-block-start: var(--section-padding-top);
     row-gap: var(--grid-gap);
     block-size: 100%;
     padding: 50px 30px;
+    border: 1px solid #e9e8f3;
     border-radius: var(--border-radius-md);
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05),0 -5px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 .benefits__card-icon {
