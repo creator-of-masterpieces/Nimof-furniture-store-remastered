@@ -15,34 +15,6 @@
   color: var(--color-secondary);
 }
 
-.header__contacts-list {
-  display: flex;
-  justify-content: flex-end;
-  padding: .5rem 1rem;
-  gap: 1.5rem;
-  list-style: none;
-
-}
-
-.header__contacts-link {
-  font-size: var(--font-size-s);
-  font-weight: var(--font-weight-medium);
-  transition: var(--transition-color);
-}
-
-.header__contacts-link:hover,
-.header__contacts-link:focus-visible {
-  color: var(--color-accent);
-}
-
-.header__contacts {
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  flex-shrink: 0;
-}
-
 /* Основной блок шапки */
 .header__main {
   padding: 1rem;

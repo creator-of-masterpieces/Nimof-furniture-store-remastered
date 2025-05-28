@@ -4,8 +4,6 @@
     align-items: center;
     row-gap: var(--grid-gap);
     padding-block-start: 80px;
-    /*Временно*/
-    margin-bottom: 150px;
 }
 
 .map__frame {

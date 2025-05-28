@@ -1,0 +1,31 @@
+.contacts-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem 1rem;
+    gap: 1.5rem;
+    list-style: none;
+
+}
+
+.contacts-list__item {
+    display: flex;
+    align-items: center;
+}
+.contacts-list__link {
+    display: inline-flex; /* сохраняет поведение ссылки как строчного элемента, но добавляет флекс-раскладку */
+    align-items: center;
+    gap: 8px;
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-medium);
+    transition: var(--transition-color);
+}
+
+.contacts-list__link:hover,
+.contacts-list__link:focus-visible {
+    color: var(--color-accent);
+}
+
+.contacts-list__icon {
+    display: block; /* избавляет от лишних отступов, которые может давать inline-svg */
+    flex-shrink: 0; /* иконка не сжимается */
+}

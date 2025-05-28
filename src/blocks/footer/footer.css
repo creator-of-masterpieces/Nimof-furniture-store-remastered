@@ -1,10 +1,14 @@
 .footer {
-  background: #333;
-  color: #fff;
-  padding: 1.5rem;
-  text-align: center;
+  background: var(--color-bg-secondary);
+  color: var(--color-secondary);
 }
 
+.footer__card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
 .footer__text {
   margin: 0;
   font-size: 0.9rem;
