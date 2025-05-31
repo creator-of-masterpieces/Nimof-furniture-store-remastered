@@ -28,7 +28,7 @@ export function initYandexMap() {
                 `
             },
             {
-                preset: 'islands#icon',       // Стиль метки
+                preset: 'islands#social-list',       // Стиль метки
                 iconColor: '#ff9900'          // Цвет иконки (например, оранжевый)
             }
         );

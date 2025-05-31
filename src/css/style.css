@@ -1,6 +1,7 @@
 /* Импорт блоков */
 @import "../blocks/container/container.css";
 @import "../blocks/visually-hidden/visually-hidden.css";
+@import "../blocks/social-list/social-list.css";
 @import "../blocks/main-page/main-page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/navigation-list/navigation-list.css";

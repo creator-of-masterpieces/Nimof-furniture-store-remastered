@@ -12,9 +12,11 @@
 }
 
 .footer__card-item {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(255, 255, 255, 0.03);
   border-radius: var(--border-radius-sm);
-  padding: 20px;
+  padding: 20px 20px 30px;
 }
 
 .footer__card-title {
@@ -54,11 +56,24 @@
 }
 
 .footer__text {
-  margin: 0;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.footer__text:not(:last-child) {
+.footer__text_big {
+  font-size: 18px;
+  font-weight: 600;
   margin-block-end: 10px;
+}
+
+.footer__card-item_type_address .footer__text:not(:last-child) {
+  margin-block-end: 10px;
+}
+
+.footer__card-body {
+  flex-grow: 1;
+}
+
+.footer__social-list {
+  margin-top: auto;
 }
