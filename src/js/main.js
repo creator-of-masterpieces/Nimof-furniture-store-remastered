@@ -1,20 +1,7 @@
-// Импортирую иконки
-import { createIcons, icons } from 'lucide';
 // Импортируем нашу функцию, чтобы можно было вызвать её позже
 import { initYandexMap } from './map';
 // Импортируем скрипт загрузки спрайта
 import { loadSprite } from './loadSprite.js';
-
-    document.addEventListener('DOMContentLoaded', () => {
-        createIcons({
-            icons, // подключает все иконки
-            attrs: {
-                stroke: 'currentColor',
-                width: 32,
-                height: 32
-            }
-        });
-    });
 
 document.addEventListener('DOMContentLoaded', () => {
     // Проверяем: есть ли на странице элемент с id="yandex-map"
@@ -36,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// загрузка спрайта при старте
+// Загрузка svg спрайта при старте
 loadSprite().catch((error)=>{
     console.error('Ошибка при загрузке спрайта:', error);
 });

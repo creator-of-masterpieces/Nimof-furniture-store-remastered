@@ -226,10 +226,10 @@
 
 <!--Подвал-->
 <footer class="footer">
-    <div class="footer_content container">
+    <div class="footer__content container">
         <ul class="footer__card-list">
 
-            <!--            График работы-->
+            <!--            Карточка с графиком-->
             <li class="footer__card-item">
                 <h3 class="footer__card-title">Время работы</h3>
                 <p class="footer__text">Понедельник - Пятница:</p>
@@ -238,14 +238,14 @@
                 <p class="footer__text footer__text_big">С 9:00 до 18:00</p>
             </li>
 
-            <!--            Адрес-->
+            <!--            Карточка с адресом -->
             <li class="footer__card-item footer__card-item_type_address">
                 <h3 class="footer__card-title">Наш адрес</h3>
                 <p class="footer__text">Москва, МКАД, 25-й километр, 4с1, 1 этаж</p>
                 <p class="footer__text">Мы находимся в ТЦ "Мебельный Город", 2 этаж, секция 25A, рядом со входом</p>
             </li>
 
-            <!--            Контакты-->
+            <!--            Карточка с контактами-->
             <li class="footer__card-item">
                 <h3 class="footer__card-title">Контакты</h3>
 
@@ -255,12 +255,9 @@
                             <a class="contacts-list__link contacts-list_type_phone"
                                href="tel:+79688886668">
                                 <svg class="contacts-list__icon"
-                                     fill="currentColor"
-                                     height="16"
-                                     viewBox="0 0 24 24"
                                      width="16"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.27 15.32C15.52 15.07 15.88 14.99 16.21 15.09C17.36 15.43 18.59 15.62 19.83 15.62C20.37 15.62 20.83 16.08 20.83 16.62V20.62C20.83 21.16 20.37 21.62 19.83 21.62C10.5 21.62 2.83 13.95 2.83 4.62C2.83 4.08 3.29 3.62 3.83 3.62H7.83C8.37 3.62 8.83 4.08 8.83 4.62C8.83 5.86 9.02 7.09 9.36 8.24C9.46 8.57 9.38 8.93 9.13 9.18L7.07 11.24C7.02 11.3 7.01 11.38 7.06 11.45L6.62 10.79Z"/>
+                                     height="16">
+                                    <use xlink:href="#icon-phone"></use>
                                 </svg>
                                 +7 (968) 888-66-68</a>
                         </li>
@@ -269,17 +266,9 @@
                             <a class="contacts-list__link contacts-list_type_email"
                                href="mailto:info@nimof.ru">
                                 <svg class="contacts-list__icon"
-                                     fill="none"
-                                     height="16"
-                                     stroke="currentColor"
-                                     stroke-linecap="round"
-                                     stroke-linejoin="round"
-                                     stroke-width="2"
-                                     viewBox="0 0 24 24"
                                      width="16"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
+                                     height="16">
+                                    <use xlink:href="#icon-mail"></use>
                                 </svg>
                                 info@nimof.ru</a>
                         </li>
@@ -295,7 +284,6 @@
                             <svg class="social-list__icon"
                                  width="24"
                                  height="24"
-                                 fill="currentColor"
                                  aria-hidden="true">
                                 <use xlink:href="#icon-telegram"></use>
                             </svg>
@@ -309,7 +297,6 @@
                             <svg class="social-list__icon"
                                  width="24"
                                  height="24"
-                                 fill="currentColor"
                                  aria-hidden="true">
                                 <use xlink:href="#icon-whatsapp"></use>
                             </svg>
@@ -318,7 +305,7 @@
                 </ul>
             </li>
 
-
+            <!--            Карточка с навигацией-->
             <li class="footer__card-item">
                 <h3 class="footer__card-title">Навигация</h3>
                 <nav class="footer__navigation">
@@ -348,9 +335,10 @@
                     </ul>
                 </nav>
             </li>
-
-
         </ul>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">© 2025 Nimof. Все права защищены.</p>
+        </div>
     </div>
 </footer>
 <script type="module"

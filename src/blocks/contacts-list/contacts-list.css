@@ -19,12 +19,20 @@
     transition: var(--transition-color);
 }
 
+.contacts-list__icon {
+    display: block; /* избавляет от лишних отступов, которые может давать inline-svg */
+    flex-shrink: 0; /* иконка не сжимается */
+    color: var(--color-secondary);
+    transition: color 0.3s ease;
+}
+
 .contacts-list__link:hover,
 .contacts-list__link:focus-visible {
     color: var(--color-accent);
 }
 
-.contacts-list__icon {
-    display: block; /* избавляет от лишних отступов, которые может давать inline-svg */
-    flex-shrink: 0; /* иконка не сжимается */
+.contacts-list__link:hover .contacts-list__icon,
+.contacts-list__link:focus-visible .contacts-list__icon {
+    color: var(--color-accent);
 }
+
