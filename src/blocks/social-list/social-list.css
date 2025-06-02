@@ -19,10 +19,12 @@
 }
 
 /*Цвета иконок при наведении*/
-.social-list__link[href*="t.me"]:hover .social-list__icon {
+.social-list__link[href*="t.me"]:hover .social-list__icon,
+.social-list__link[href*="t.me"]:focus-visible .social-list__icon {
     color: #0088cc; /* Telegram-синий */
 }
 
-.social-list__link[href*="wa.me"]:hover .social-list__icon {
+.social-list__link[href*="wa.me"]:hover .social-list__icon,
+.social-list__link[href*="wa.me"]:focus-visible .social-list__icon {
     color: #25D366; /* WhatsApp-зелёный */
 }

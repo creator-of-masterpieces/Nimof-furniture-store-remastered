@@ -2,7 +2,7 @@
 @import "../blocks/container/container.css";
 @import "../blocks/visually-hidden/visually-hidden.css";
 @import "../blocks/social-list/social-list.css";
-@import "../blocks/main-page/main-page.css";
+@import "../blocks/page/main-page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/navigation-list/navigation-list.css";
 @import "../blocks/contacts-list/contacts-list.css";
@@ -17,5 +17,6 @@
 @import "../blocks/cta/cta.css";
 @import "../blocks/map/map.css";
 @import "../blocks/footer/footer.css";
+@import "../blocks/catalog/catalog.css";
 
 /* Установка базового шрифта и высоты строки */
