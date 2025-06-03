@@ -18,5 +18,6 @@
 @import "../blocks/map/map.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/catalog/catalog.css";
+@import "../blocks/category-filters/category-filters.css";
 
 /* Установка базового шрифта и высоты строки */
