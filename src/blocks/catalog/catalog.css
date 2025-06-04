@@ -43,3 +43,7 @@
     scale: 1.02;
     translate: 0 -5px;
 }
+
+.catalog__category-filters {
+    margin-block: 140px;
+}
