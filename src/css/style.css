@@ -19,5 +19,5 @@
 @import "../blocks/footer/footer.css";
 @import "../blocks/catalog/catalog.css";
 @import "../blocks/category-filters/category-filters.css";
-
+@import "../blocks/hidden/hidden.css";
 /* Установка базового шрифта и высоты строки */

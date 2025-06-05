@@ -2,6 +2,7 @@
 import { initYandexMap } from './map';
 // Импортируем скрипт загрузки спрайта
 import { loadSprite } from './loadSprite.js';
+import {initCategoryFilters} from './category-filters.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Проверяем: есть ли на странице элемент с id="yandex-map"
@@ -22,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(script);
     }
 });
+
+initCategoryFilters();
 
 // Загрузка svg спрайта при старте
 loadSprite().catch((error)=>{
