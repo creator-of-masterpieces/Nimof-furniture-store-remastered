@@ -1,14 +1,227 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Nimof — О нас</title>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <title>Nimof — Главная</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
+          rel="stylesheet">
+    <link href="./css/reset.css"
+          rel="stylesheet">
+    <link href="./css/variables.css"
+          rel="stylesheet">
+    <link href="./css/style.css"
+          rel="stylesheet">
 </head>
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-  <script src="./js/main.js"></script>
+<body class="page">
+<header class="header">
+
+    <!--    Верх шапки-->
+    <div class="header__top">
+        <ul class="contacts-list container">
+            <li class="contacts-list__item">
+                <a class="contacts-list__link contacts-list_type_phone"
+                   href="tel:+79688886668">
+                    <svg class="contacts-list__icon"
+                         fill="currentColor"
+                         height="16"
+                         viewBox="0 0 24 24"
+                         width="16"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.27 15.32C15.52 15.07 15.88 14.99 16.21 15.09C17.36 15.43 18.59 15.62 19.83 15.62C20.37 15.62 20.83 16.08 20.83 16.62V20.62C20.83 21.16 20.37 21.62 19.83 21.62C10.5 21.62 2.83 13.95 2.83 4.62C2.83 4.08 3.29 3.62 3.83 3.62H7.83C8.37 3.62 8.83 4.08 8.83 4.62C8.83 5.86 9.02 7.09 9.36 8.24C9.46 8.57 9.38 8.93 9.13 9.18L7.07 11.24C7.02 11.3 7.01 11.38 7.06 11.45L6.62 10.79Z"/>
+                    </svg>
+                    +7 (968) 888-66-68</a>
+            </li>
+
+            <li class="contacts-list__item">
+                <a class="contacts-list__link contacts-list_type_email"
+                   href="mailto:info@nimof.ru">
+                    <svg class="contacts-list__icon"
+                         fill="none"
+                         height="16"
+                         stroke="currentColor"
+                         stroke-linecap="round"
+                         stroke-linejoin="round"
+                         stroke-width="2"
+                         viewBox="0 0 24 24"
+                         width="16"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    info@nimof.ru</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--    Основной блок шапки    -->
+    <div class="header__main container">
+        <nav class="header__navigation">
+            <a class="header__logo header__logo_main-page"
+               href="#">Nimof</a>
+            <ul class="navigation-list header__navigation-list">
+                <li class="header__navigation-item">
+                    <a class="navigation-list__link header__navigation-link"
+                       href="#">Главная
+                    </a>
+                </li>
+                <li class="header__navigation-item">
+                    <a class="navigation-list__link header__navigation-link"
+                       href="./catalog.html">Наши работы
+                    </a>
+                </li>
+                <li class="header__navigation-item">
+                    <a class="navigation-list__link header__navigation-link navigation-list__link_current"
+                       href="./about.html">
+                        О компании
+                    </a>
+                </li>
+                <li class="header__navigation-item">
+                    <a class="navigation-list__link header__navigation-link"
+                       href="./contacts.html">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main">
+
+    <!--    Стартовая секция-->
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="visually-hidden">Интернет-магазин мебели Nimof — каталог современной мебели для дома</h1>
+            <h2 class="hero__title">Мебель, с которой начинается день</h2>
+            <p class="hero__description">Откройте для себя элегантную и функциональную мебель, которая идеально впишется
+                в ваш интерьер и подчеркнет ваш стиль.</p>
+            <div class="hero__links">
+                <a href="./catalog.html"
+                   class="button button_primary">Наши работы
+                </a>
+                <a href="./about.html"
+                   class="button button_secondary">Подробнее о бренде
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__content container">
+        <ul class="footer__card-list">
+
+            <!--            Карточка с графиком-->
+            <li class="footer__card-item">
+                <h3 class="footer__card-title">Время работы</h3>
+                <p class="footer__text">Понедельник - Пятница:</p>
+                <p class="footer__text footer__text_big">С 9:00 до 21:00</p>
+                <p class="footer__text">Суббота - Воскресенье:</p>
+                <p class="footer__text footer__text_big">С 9:00 до 18:00</p>
+            </li>
+
+            <!--            Карточка с адресом -->
+            <li class="footer__card-item footer__card-item_type_address">
+                <h3 class="footer__card-title">Наш адрес</h3>
+                <p class="footer__text">Москва, МКАД, 25-й километр, 4с1, 1 этаж</p>
+                <p class="footer__text">Мы находимся в ТЦ "Мебельный Город", 2 этаж, секция 25A, рядом со входом</p>
+            </li>
+
+            <!--            Карточка с контактами-->
+            <li class="footer__card-item">
+                <h3 class="footer__card-title">Контакты</h3>
+
+                <div class="footer__card-body">
+                    <ul class="contacts-list footer__contacts-list">
+                        <li class="contacts-list__item footer__contacts-list-item">
+                            <a class="contacts-list__link contacts-list_type_phone"
+                               href="tel:+79688886668">
+                                <svg class="contacts-list__icon"
+                                     width="16"
+                                     height="16">
+                                    <use xlink:href="#icon-phone"></use>
+                                </svg>
+                                +7 (968) 888-66-68</a>
+                        </li>
+
+                        <li class="contacts-list__item footer__contacts-list-item">
+                            <a class="contacts-list__link contacts-list_type_email"
+                               href="mailto:info@nimof.ru">
+                                <svg class="contacts-list__icon"
+                                     width="16"
+                                     height="16">
+                                    <use xlink:href="#icon-mail"></use>
+                                </svg>
+                                info@nimof.ru</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--                Список иконок социальных сетей-->
+                <ul class="social-list footer__social-list">
+                    <li class="social-list__item">
+                        <a href="https://t.me/+79688886668"
+                           class="social-list__link"
+                           target="_blank"
+                           rel="noopener">
+                            <svg class="social-list__icon"
+                                 width="24"
+                                 height="24"
+                                 aria-hidden="true">
+                                <use xlink:href="#icon-telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="https://wa.me/+79688886668"
+                           class="social-list__link"
+                           target="_blank"
+                           rel="noopener">
+                            <svg class="social-list__icon"
+                                 width="24"
+                                 height="24"
+                                 aria-hidden="true">
+                                <use xlink:href="#icon-whatsapp"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <!--            Карточка с навигацией-->
+            <li class="footer__card-item">
+                <h3 class="footer__card-title">Навигация</h3>
+                <nav class="footer__navigation">
+                    <ul class="navigation-list footer__navigation-list">
+                        <li class="header__navigation-item">
+                            <a class="navigation-list__link footer__navigation-link"
+                               href="#">Главная
+                            </a>
+                        </li>
+                        <li class="header__navigation-item">
+                            <a class="navigation-list__link footer__navigation-link"
+                               href="./catalog.html">Наши работы
+                            </a>
+                        </li>
+                        <li class="header__navigation-item">
+                            <a class="navigation-list__link footer__navigation-link navigation-list__link_current"
+                               href="./about.html">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="header__navigation-item">
+                            <a class="navigation-list__link footer__navigation-link"
+                               href="./contacts.html">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </li>
+        </ul>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">© 2025 Nimof. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+<script type="module"
+        src="./js/main.js"></script>
 </body>
 </html>
